@@ -65,9 +65,7 @@ class MessageHandlers:
         
         await callback.message.delete()
         
-        wait_message = None
-        if file_key != "not_found":
-            wait_message = await callback.message.answer("Ожидайте...😊")
+        wait_message = await callback.message.answer("Ожидайте...😊")
         
         try:
             if file_key == "not_found":
