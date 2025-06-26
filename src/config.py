@@ -15,6 +15,7 @@ class Config:
     }
     SUPPORT_CHAT_ID = os.getenv('SUPPORT_CHAT_ID')
     TELEGRAM_CHANNEL_LINK = os.getenv('TELEGRAM_CHANNEL_LINK')
+    SUPPORT_CHAT_LINK = os.getenv('SUPPORT_CHAT_LINK')
     PDF_MAP = {
         'barcode': os.path.join(BASE_DIR, 'static/Белый экран.pdf'),
         'screen': os.path.join(BASE_DIR, 'static/Черный экран.pdf'),

@@ -7,8 +7,8 @@ class Keyboards:
         return InlineKeyboardMarkup(
             inline_keyboard=[
                 [InlineKeyboardButton(text="Технические неполадки", callback_data="technical")],
-                [InlineKeyboardButton(text="Вопросы, связанные с качеством продукции", url="https://t.me/TeX_prosto")],
-                [InlineKeyboardButton(text="Другой вопрос или предложение", url="https://t.me/TeX_prosto")],
+                [InlineKeyboardButton(text="Вопросы, связанные с качеством продукции", url=Config.SUPPORT_CHAT_LINK)],
+                [InlineKeyboardButton(text="Другой вопрос или предложение", url=Config.SUPPORT_CHAT_LINK)],
                 [InlineKeyboardButton(text="Подписаться на наш Telegram-канал", url=Config.TELEGRAM_CHANNEL_LINK)]
             ]
         )
@@ -29,7 +29,7 @@ class Keyboards:
     def contact_operator():
         return InlineKeyboardMarkup(
             inline_keyboard=[
-                [InlineKeyboardButton(text="💬 Написать оператору", url="https://t.me/TeX_prosto")]
+                [InlineKeyboardButton(text="💬 Написать оператору", url=Config.SUPPORT_CHAT_LINK)]
             ]
         )
 

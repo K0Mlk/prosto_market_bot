@@ -2,7 +2,7 @@
 
 ## Клонируем репу
 ```bash
-git clone https://github.com/your-repo/support-bot.git
+git clone https://github.com/K0Mlk/prosto_market_bot.git
 cd support-bot
 ```
 
@@ -16,6 +16,7 @@ DB_USER=
 DB_PASSWORD=
 DB_ROOT_PASSWORD=
 TELEGRAM_CHANNEL_LINK=
+SUPPORT_CHAT_LINK=
 ```
 
 ## Собираем контейнеры
